@@ -1,0 +1,67 @@
+li{
+
+    transition: 0.2s ease;
+}
+
+li:hover{
+
+    transform: scale(1.02);
+}
+
+.completed span{
+
+    text-decoration: line-through;
+
+    color: gray;
+}
+
+.complete-btn{
+
+    background: #4f46e5;
+
+    color: white;
+
+    border: none;
+
+    padding: 6px 10px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+.delete-btn{
+
+    background: crimson;
+
+    color: white;
+
+    border: none;
+
+    padding: 6px 10px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+.btns{
+
+    display: flex;
+
+    gap: 10px;
+}
+
+small{
+
+    color: gray;
+
+    font-size: 11px;
+}
+
+.empty{
+
+    text-align: center;
+
+    color: white;
+}
